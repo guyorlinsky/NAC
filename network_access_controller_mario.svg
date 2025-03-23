@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 500">
+  <!-- Background - Mario blue sky -->
+  <rect width="480" height="500" fill="#5c94fc"/>
+  
+  <!-- Ground - Mario brown -->
+  <rect y="460" width="480" height="40" fill="#c84c0c"/>
+  
+  <!-- Title -->
+  <text x="240" y="30" font-family="monospace" font-weight="bold" font-size="18" fill="#ffffff" text-anchor="middle">Network Access Controller</text>
+  
+  <!-- Mario-style clouds -->
+  <g transform="translate(30, 55)">
+    <rect x="0" y="0" width="10" height="10" fill="#ffffff"/>
+    <rect x="10" y="0" width="10" height="10" fill="#ffffff"/>
+    <rect x="20" y="0" width="10" height="10" fill="#ffffff"/>
+    <rect x="-10" y="10" width="10" height="10" fill="#ffffff"/>
+    <rect x="0" y="10" width="10" height="10" fill="#ffffff"/>
+    <rect x="10" y="10" width="10" height="10" fill="#ffffff"/>
+    <rect x="20" y="10" width="10" height="10" fill="#ffffff"/>
+    <rect x="30" y="10" width="10" height="10" fill="#ffffff"/>
+  </g>
+  
+  <g transform="translate(350, 40)">
+    <rect x="0" y="0" width="10" height="10" fill="#ffffff"/>
+    <rect x="10" y="0" width="10" height="10" fill="#ffffff"/>
+    <rect x="20" y="0" width="10" height="10" fill="#ffffff"/>
+    <rect x="-10" y="10" width="10" height="10" fill="#ffffff"/>
+    <rect x="0" y="10" width="10" height="10" fill="#ffffff"/>
+    <rect x="10" y="10" width="10" height="10" fill="#ffffff"/>
+    <rect x="20" y="10" width="10" height="10" fill="#ffffff"/>
+    <rect x="30" y="10" width="10" height="10" fill="#ffffff"/>
+  </g>
+  
+  <!-- Mario-style warp pipe as main structure -->
+  <rect x="40" y="80" width="400" height="360" rx="5" fill="#388c44"/>
+  <rect x="50" y="90" width="380" height="340" rx="5" fill="#000000" fill-opacity="0.7"/>
+  
+  <!-- Package structure inside -->
+  <g transform="translate(70, 100)">
+    <!-- Mario-style question blocks for main folders -->
+    <!-- Root Folder -->
+    <rect x="0" y="0" width="20" height="20" fill="#e9a238"/>
+    <rect x="5" y="5" width="10" height="10" fill="#ffffff" fill-opacity="0.4"/>
+    <text x="25" y="15" font-family="monospace" font-weight="bold" font-size="12" fill="#ffffff">java/com/example</text>
+    
+    <!-- App.java - Mario coin -->
+    <circle cx="28" cy="38" r="8" fill="#ffdf00"/>
+    <text x="41" y="43" font-family="monospace" font-size="11" fill="#ffdf00">App.java</text>
+    
+    <!-- Packages as mini question blocks -->
+    <!-- common -->
+    <rect x="20" y="60" width="16" height="16" fill="#e9a238"/>
+    <rect x="24" y="64" width="8" height="8" fill="#ffffff" fill-opacity="0.4"/>
+    <text x="41" y="73" font-family="monospace" font-size="11" fill="#ffffff">common</text>
+    <circle cx="47" cy="87" r="7" fill="#ffdf00"/>
+    <text x="59" y="91" font-family="monospace" font-size="10" fill="#ffdf00">eRole.java</text>
+    
+    <!-- controllers -->
+    <rect x="20" y="110" width="16" height="16" fill="#e9a238"/>
+    <rect x="24" y="114" width="8" height="8" fill="#ffffff" fill-opacity="0.4"/>
+    <text x="41" y="123" font-family="monospace" font-size="11" fill="#ffffff">controllers</text>
+    <circle cx="47" cy="137" r="7" fill="#ffdf00"/>
+    <text x="59" y="141" font-family="monospace" font-size="10" fill="#ffdf00">AppController.java</text>
+    <circle cx="47" cy="157" r="7" fill="#ffdf00"/>
+    <text x="59" y="161" font-family="monospace" font-size="10" fill="#ffdf00">AppControllerImpl.java</text>
+    
+    <!-- dto -->
+    <rect x="20" y="180" width="16" height="16" fill="#e9a238"/>
+    <rect x="24" y="184" width="8" height="8" fill="#ffffff" fill-opacity="0.4"/>
+    <text x="41" y="193" font-family="monospace" font-size="11" fill="#ffffff">dto</text>
+    <circle cx="47" cy="207" r="7" fill="#ffdf00"/>
+    <text x="59" y="211" font-family="monospace" font-size="10" fill="#ffdf00">ServiceCreateResponse.java</text>
+    <circle cx="47" cy="227" r="7" fill="#ffdf00"/>
+    <text x="59" y="231" font-family="monospace" font-size="10" fill="#ffdf00">ServicePermissionsDTO.java</text>
+    <circle cx="47" cy="247" r="7" fill="#ffdf00"/>
+    <text x="59" y="251" font-family="monospace" font-size="10" fill="#ffdf00">UserCreateResponse.java</text>
+    <circle cx="47" cy="267" r="7" fill="#ffdf00"/>
+    <text x="59" y="271" font-family="monospace" font-size="10" fill="#ffdf00">UserPermissionsDTO.java</text>
+    
+    <!-- Right side packages -->
+    <!-- models -->
+    <rect x="240" y="60" width="16" height="16" fill="#e9a238"/>
+    <rect x="244" y="64" width="8" height="8" fill="#ffffff" fill-opacity="0.4"/>
+    <text x="261" y="73" font-family="monospace" font-size="11" fill="#ffffff">models</text>
+    <circle cx="267" cy="87" r="7" fill="#ffdf00"/>
+    <text x="279" y="91" font-family="monospace" font-size="10" fill="#ffdf00">MicroService.java</text>
+    <circle cx="267" cy="107" r="7" fill="#ffdf00"/>
+    <text x="279" y="111" font-family="monospace" font-size="10" fill="#ffdf00">User.java</text>
+    
+    <!-- repos -->
+    <rect x="240" y="130" width="16" height="16" fill="#e9a238"/>
+    <rect x="244" y="134" width="8" height="8" fill="#ffffff" fill-opacity="0.4"/>
+    <text x="261" y="143" font-family="monospace" font-size="11" fill="#ffffff">repos</text>
+    <circle cx="267" cy="157" r="7" fill="#ffdf00"/>
+    <text x="279" y="161" font-family="monospace" font-size="10" fill="#ffdf00">MicroServiceRepository.java</text>
+    <circle cx="267" cy="177" r="7" fill="#ffdf00"/>
+    <text x="279" y="181" font-family="monospace" font-size="10" fill="#ffdf00">UserRepository.java</text>
+    
+    <!-- services -->
+    <rect x="240" y="200" width="16" height="16" fill="#e9a238"/>
+    <rect x="244" y="204" width="8" height="8" fill="#ffffff" fill-opacity="0.4"/>
+    <text x="261" y="213" font-family="monospace" font-size="11" fill="#ffffff">services</text>
+    <circle cx="267" cy="227" r="7" fill="#ffdf00"/>
+    <text x="279" y="231" font-family="monospace" font-size="10" fill="#ffdf00">MicroServiceService.java</text>
+    <circle cx="267" cy="247" r="7" fill="#ffdf00"/>
+    <text x="279" y="251" font-family="monospace" font-size="10" fill="#ffdf00">ServiceProvider.java</text>
+    <circle cx="267" cy="267" r="7" fill="#ffdf00"/>
+    <text x="279" y="271" font-family="monospace" font-size="10" fill="#ffdf00">UserService.java</text>
+    
+    <!-- resources -->
+    <rect x="0" y="300" width="20" height="20" fill="#e9a238"/>
+    <rect x="5" y="305" width="10" height="10" fill="#ffffff" fill-opacity="0.4"/>
+    <text x="25" y="315" font-family="monospace" font-weight="bold" font-size="12" fill="#ffffff">resources</text>
+    
+    <!-- Application.properties as a power-up mushroom -->
+    <rect x="25" y="325" width="16" height="8" fill="#e7471d"/>
+    <rect x="21" y="333" width="24" height="8" fill="#e7471d"/>
+    <circle cx="28" cy="330" r="4" fill="#ffffff"/>
+    <circle cx="38" cy="330" r="4" fill="#ffffff"/>
+    <text x="50" y="338" font-family="monospace" font-size="11" fill="#ffffff">application.properties</text>
+    
+    <!-- Mario-style pipes as connecting lines -->
+    <!-- Main vertical pipe -->
+    <rect x="8" y="20" width="4" height="280" fill="#00a651"/>
+    
+    <!-- Horizontal pipes -->
+    <rect x="8" y="38" width="12" height="4" fill="#00a651"/>
+    <rect x="8" y="68" width="12" height="4" fill="#00a651"/>
+    <rect x="8" y="118" width="12" height="4" fill="#00a651"/>
+    <rect x="8" y="188" width="12" height="4" fill="#00a651"/>
+    <rect x="8" y="310" width="12" height="4" fill="#00a651"/>
+    
+    <!-- Bridge to right side -->
+    <rect x="8" y="68" width="222" height="4" fill="#00a651"/>
+    <rect x="228" y="68" width="12" height="4" fill="#00a651"/>
+    <rect x="228" y="68" width="4" height="70" fill="#00a651"/>
+    <rect x="228" y="138" width="12" height="4" fill="#00a651"/>
+    <rect x="228" y="138" width="4" height="70" fill="#00a651"/>
+    <rect x="228" y="208" width="12" height="4" fill="#00a651"/>
+    
+    <!-- Mario-style decorations -->
+    <!-- Coins at the corners -->
+    <circle cx="340" cy="110" r="6" fill="#ffdf00"/>
+    <circle cx="340" cy="130" r="6" fill="#ffdf00"/>
+    <circle cx="340" cy="150" r="6" fill="#ffdf00"/>
+    
+    <circle cx="340" cy="240" r="6" fill="#ffdf00"/>
+    <circle cx="340" cy="260" r="6" fill="#ffdf00"/>
+    <circle cx="340" cy="280" r="6" fill="#ffdf00"/>
+    
+    <!-- Small Mario character -->
+    <g transform="translate(320, 300)">
+      <!-- Mario's hat and head -->
+      <rect x="6" y="0" width="8" height="4" fill="#ff0000"/>
+      <rect x="2" y="4" width="16" height="4" fill="#ff0000"/>
+      <rect x="6" y="8" width="8" height="4" fill="#8b5427"/>
+      <rect x="2" y="12" width="16" height="4" fill="#ffc08b"/>
+      <rect x="6" y="8" width="2" height="2" fill="#000000"/>
+      <rect x="6" y="16" width="4" height="4" fill="#ffc08b"/>
+      <rect x="14" y="16" width="4" height="4" fill="#ffc08b"/>
+      
+      <!-- Mario's overalls and shoes -->
+      <rect x="2" y="20" width="16" height="4" fill="#0042a9"/>
+      <rect x="2" y="24" width="4" height="4" fill="#0042a9"/>
+      <rect x="10" y="24" width="4" height="4" fill="#0042a9"/>
+      <rect x="14" y="24" width="4" height="4" fill="#0042a9"/>
+      <rect x="2" y="28" width="4" height="4" fill="#8b5427"/>
+      <rect x="14" y="28" width="4" height="4" fill="#8b5427"/>
+    </g>
+    
+    <!-- Legend with Mario-style blocks -->
+    <g transform="translate(300, 355)">
+      <rect x="0" y="0" width="10" height="10" fill="#e9a238"/>
+      <rect x="2" y="2" width="6" height="6" fill="#ffffff" fill-opacity="0.4"/>
+      <text x="15" y="9" font-family="monospace" font-size="10" fill="#ffffff">Directory</text>
+      
+      <circle cx="5" cy="20" r="5" fill="#ffdf00"/>
+      <text x="15" y="24" font-family="monospace" font-size="10" fill="#ffffff">Java File</text>
+      
+      <rect x="0" y="30" width="10" height="5" fill="#e7471d"/>
+      <rect x="-2" y="35" width="14" height="5" fill="#e7471d"/>
+      <circle cx="3" cy="33" r="2" fill="#ffffff"/>
+      <circle cx="8" cy="33" r="2" fill="#ffffff"/>
+      <text x="15" y="39" font-family="monospace" font-size="10" fill="#ffffff">Properties</text>
+    </g>
+  </g>
+  
+  <!-- Mario-style ground blocks -->
+  <g transform="translate(0, 460)">
+    <rect x="0" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="40" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="80" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="120" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="160" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="200" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="240" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="280" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="320" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="360" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="400" y="0" width="40" height="40" fill="#c84c0c"/>
+    <rect x="440" y="0" width="40" height="40" fill="#c84c0c"/>
+    
+    <!-- Ground details -->
+    <rect x="5" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="45" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="85" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="125" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="165" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="205" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="245" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="285" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="325" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="365" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="405" y="5" width="30" height="5" fill="#ffaa41"/>
+    <rect x="445" y="5" width="30" height="5" fill="#ffaa41"/>
+  </g>
+</svg>
