@@ -1,0 +1,27 @@
+
+plugins {
+    id 'org.springframework.boot' version '2.7.6' // Use the latest version of Spring Boot
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'com.example' // your project group
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11' // or the version you're using
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web' // Add Spring Boot starter for web apps
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // Add JPA if you want to use databases
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' // For Thymeleaf templates (optional)
+    testImplementation 'org.springframework.boot:spring-boot-starter-test' // For testing
+    implementation 'mysql:mysql-connector-java'
+
+}
+
+test {
+    useJUnitPlatform()
+}
