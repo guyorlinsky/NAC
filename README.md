@@ -1,1 +1,1 @@
-![Description of the image](java-app-structure-pixel-art (1).svg)
+![Network Access Controller](java_app_structure_pixel_art.svg)
