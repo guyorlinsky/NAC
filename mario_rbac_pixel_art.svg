@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#5c94fc"/>
+  
+  <!-- Ground -->
+  <rect y="420" width="800" height="80" fill="#6b8d2f"/>
+  
+  <!-- Brick blocks for title -->
+  <g transform="translate(250, 30)">
+    <rect width="300" height="40" fill="#c84c0c"/>
+    <rect x="15" y="5" width="270" height="30" fill="#e6901e"/>
+    <rect x="20" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="40" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="60" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="80" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="100" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="120" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="140" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="160" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="180" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="200" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="220" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="240" y="10" width="10" height="5" fill="#c84c0c"/>
+    <rect x="260" y="10" width="10" height="5" fill="#c84c0c"/>
+    
+    <rect x="20" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="40" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="60" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="80" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="100" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="120" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="140" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="160" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="180" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="200" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="220" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="240" y="20" width="10" height="5" fill="#c84c0c"/>
+    <rect x="260" y="20" width="10" height="5" fill="#c84c0c"/>
+    
+    <text x="150" y="27" font-family="Consolas, monospace" font-size="16" fill="white" text-anchor="middle">ROLE BASED ACCESS</text>
+  </g>
+  
+  <!-- Mario (User) -->
+  <g transform="translate(120, 360)">
+    <!-- Mario's head -->
+    <rect x="0" y="0" width="40" height="10" fill="#E41B1B"/>
+    <rect x="-10" y="10" width="60" height="10" fill="#E41B1B"/>
+    <rect x="-10" y="20" width="60" height="10" fill="#8A5D08"/>
+    <rect x="-10" y="30" width="20" height="10" fill="#FFDEC7"/>
+    <rect x="10" y="30" width="10" height="10" fill="#8A5D08"/>
+    <rect x="20" y="30" width="30" height="10" fill="#FFDEC7"/>
+    <rect x="-10" y="40" width="10" height="10" fill="#FFDEC7"/>
+    <rect x="0" y="40" width="10" height="10" fill="#8A5D08"/>
+    <rect x="10" y="40" width="20" height="10" fill="#FFDEC7"/>
+    <rect x="30" y="40" width="20" height="10" fill="#FFDEC7"/>
+    <rect x="0" y="50" width="50" height="10" fill="#FFDEC7"/>
+    
+    <text x="20" y="80" font-family="Consolas, monospace" font-size="14" fill="white" text-anchor="middle">USER</text>
+    
+    <!-- Role blocks -->
+    <g transform="translate(-50, -120)">
+      <rect x="0" y="130" width="40" height="20" fill="#FDBD1F"/>
+      <rect x="2" y="132" width="36" height="16" fill="#FFF066"/>
+      <text x="20" y="145" font-family="Consolas, monospace" font-size="10" fill="black" text-anchor="middle">ADMIN</text>
+      
+      <rect x="50" y="130" width="40" height="20" fill="#45B731"/>
+      <rect x="52" y="132" width="36" height="16" fill="#8AE249"/>
+      <text x="70" y="145" font-family="Consolas, monospace" font-size="10" fill="black" text-anchor="middle">USER</text>
+      
+      <rect x="100" y="130" width="40" height="20" fill="#E32525"/>
+      <rect x="102" y="132" width="36" height="16" fill="#FE8383"/>
+      <text x="120" y="145" font-family="Consolas, monospace" font-size="10" fill="black" text-anchor="middle">GUEST</text>
+    </g>
+  </g>
+  
+  <!-- Castle (Service) -->
+  <g transform="translate(600, 300)">
+    <!-- Main castle -->
+    <rect x="-50" y="0" width="100" height="120" fill="#E6901E"/>
+    <rect x="-60" y="0" width="10" height="10" fill="#E6901E"/>
+    <rect x="50" y="0" width="10" height="10" fill="#E6901E"/>
+    <rect x="-70" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="60" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-70" y="20" width="140" height="100" fill="#E6901E"/>
+    
+    <!-- Door -->
+    <rect x="-20" y="80" width="40" height="40" fill="#8A5D08"/>
+    <rect x="-15" y="85" width="30" height="35" fill="#4D340B"/>
+    
+    <!-- Windows -->
+    <rect x="-40" y="40" width="20" height="20" fill="#3BBCEB"/>
+    <rect x="20" y="40" width="20" height="20" fill="#3BBCEB"/>
+    
+    <!-- Castle top -->
+    <rect x="-60" y="-20" width="20" height="20" fill="#E6901E"/>
+    <rect x="-30" y="-20" width="20" height="20" fill="#E6901E"/>
+    <rect x="0" y="-20" width="20" height="20" fill="#E6901E"/>
+    <rect x="30" y="-20" width="20" height="20" fill="#E6901E"/>
+    
+    <text x="0" y="140" font-family="Consolas, monospace" font-size="14" fill="white" text-anchor="middle">SERVICE</text>
+    
+    <!-- Allowed roles -->
+    <g transform="translate(-50, -120)">
+      <rect x="0" y="130" width="40" height="20" fill="#FDBD1F"/>
+      <rect x="2" y="132" width="36" height="16" fill="#FFF066"/>
+      <text x="20" y="145" font-family="Consolas, monospace" font-size="10" fill="black" text-anchor="middle">ADMIN</text>
+      
+      <rect x="50" y="130" width="40" height="20" fill="#45B731"/>
+      <rect x="52" y="132" width="36" height="16" fill="#8AE249"/>
+      <text x="70" y="145" font-family="Consolas, monospace" font-size="10" fill="black" text-anchor="middle">USER</text>
+    </g>
+  </g>
+  
+  <!-- Access control pipe -->
+  <g transform="translate(340, 240)">
+    <rect x="-40" y="0" width="80" height="60" fill="#00A328"/>
+    <rect x="-35" y="5" width="70" height="50" fill="#00C230"/>
+    <rect x="-30" y="10" width="60" height="40" fill="#00E238"/>
+    <text x="0" y="35" font-family="Consolas, monospace" font-size="14" fill="white" text-anchor="middle">ACCESS</text>
+    
+    <!-- Pipe top -->
+    <rect x="-50" y="-10" width="100" height="10" fill="#00A328"/>
+    <rect x="-45" y="-10" width="90" height="5" fill="#00C230"/>
+    
+    <!-- Pipe bottom -->
+    <rect x="-50" y="60" width="100" height="10" fill="#00A328"/>
+    <rect x="-45" y="65" width="90" height="5" fill="#00C230"/>
+  </g>
+  
+  <!-- Access paths -->
+  <g>
+    <!-- Request path -->
+    <rect x="180" y="340" width="150" height="10" fill="#C84C0C"/>
+    <rect x="180" y="345" width="150" height="5" fill="#E6901E"/>
+    <polygon points="330,340 330,350 340,345" fill="#C84C0C"/>
+    
+    <!-- Success path (green pipe) -->
+    <rect x="380" y="290" width="10" height="50" fill="#00A328"/>
+    <rect x="385" y="290" width="5" height="50" fill="#00C230"/>
+    <rect x="390" y="330" width="150" height="10" fill="#00A328"/>
+    <rect x="390" y="335" width="150" height="5" fill="#00C230"/>
+    <polygon points="540,330 540,340 550,335" fill="#00A328"/>
+    
+    <!-- Denied path (red pipe) -->
+    <rect x="340" y="310" width="10" height="90" fill="#D81116"/>
+    <rect x="345" y="310" width="5" height="90" fill="#FB373A"/>
+    <rect x="190" y="390" width="150" height="10" fill="#D81116"/>
+    <rect x="190" y="395" width="150" height="5" fill="#FB373A"/>
+    <polygon points="190,390 190,400 180,395" fill="#D81116"/>
+  </g>
+  
+  <!-- Explanation blocks -->
+  <g transform="translate(400, 140)">
+    <rect x="-350" y="0" width="700" height="80" fill="#E6901E"/>
+    <rect x="-345" y="5" width="690" height="70" fill="#FDBD1F"/>
+    
+    <text x="0" y="30" font-family="Consolas, monospace" font-size="16" fill="black" text-anchor="middle">MARIO CAN ENTER THE CASTLE</text>
+    <text x="0" y="55" font-family="Consolas, monospace" font-size="16" fill="black" text-anchor="middle">ONLY IF HE HAS THE RIGHT ROLE</text>
+    
+    <!-- Pixel decorations -->
+    <rect x="-340" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-320" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-300" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-280" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-260" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-240" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-220" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-200" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-180" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-160" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-140" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-120" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-100" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-80" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-60" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-40" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="-20" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="0" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="20" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="40" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="60" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="80" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="100" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="120" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="140" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="160" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="180" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="200" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="220" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="240" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="260" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="280" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="300" y="10" width="10" height="10" fill="#E6901E"/>
+    <rect x="320" y="10" width="10" height="10" fill="#E6901E"/>
+  </g>
+  
+  <!-- Coins as decorations -->
+  <g>
+    <circle cx="50" cy="100" r="10" fill="#FFCC00"/>
+    <circle cx="50" cy="100" r="7" fill="#FFE970"/>
+    <text x="50" cy="103" font-family="Consolas, monospace" font-size="10" fill="#FF9900" text-anchor="middle">$</text>
+    
+    <circle cx="750" cy="100" r="10" fill="#FFCC00"/>
+    <circle cx="750" cy="100" r="7" fill="#FFE970"/>
+    <text x="750" cy="103" font-family="Consolas, monospace" font-size="10" fill="#FF9900" text-anchor="middle">$</text>
+    
+    <circle cx="100" cy="50" r="10" fill="#FFCC00"/>
+    <circle cx="100" cy="50" r="7" fill="#FFE970"/>
+    <text x="100" cy="53" font-family="Consolas, monospace" font-size="10" fill="#FF9900" text-anchor="middle">$</text>
+    
+    <circle cx="700" cy="50" r="10" fill="#FFCC00"/>
+    <circle cx="700" cy="50" r="7" fill="#FFE970"/>
+    <text x="700" cy="53" font-family="Consolas, monospace" font-size="10" fill="#FF9900" text-anchor="middle">$</text>
+  </g>
+  
+  <!-- Clouds -->
+  <g>
+    <circle cx="100" cy="80" r="15" fill="white"/>
+    <circle cx="120" cy="80" r="20" fill="white"/>
+    <circle cx="140" cy="80" r="15" fill="white"/>
+    
+    <circle cx="500" cy="60" r="15" fill="white"/>
+    <circle cx="520" cy="60" r="20" fill="white"/>
+    <circle cx="540" cy="60" r="15" fill="white"/>
+    
+    <circle cx="300" cy="100" r="15" fill="white"/>
+    <circle cx="320" cy="100" r="20" fill="white"/>
+    <circle cx="340" cy="100" r="15" fill="white"/>
+  </g>
+</svg>
