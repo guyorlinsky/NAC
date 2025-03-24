@@ -4,11 +4,15 @@ import com.example.dto.ServiceCreateResponse;
 import com.example.dto.ServicePermissionsDTO;
 import com.example.dto.UserCreateResponse;
 import com.example.dto.UserPermissionsDTO;
+import com.example.models.MicroService;
+import com.example.models.User;
 import com.example.services.MicroServiceService;
 import com.example.services.ServiceProvider;
 import com.example.services.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 public class AppControllerImpl implements AppController{
@@ -26,8 +30,20 @@ public class AppControllerImpl implements AppController{
     }
 
     @Override
+    public ResponseEntity<List<User>> readAllUsers() {
+        List<User> Users = service.getUserService().getAllUsers();
+        return ResponseEntity.ok(Users);
+    }
+
+    @Override
     public ResponseEntity<ServiceCreateResponse> createPermissionsForService(ServicePermissionsDTO request) {
         return ResponseEntity.ok(service.createPermissionsForService(request.getServiceEndpointIdentifier(), request.getPermissions()));
+    }
+
+    @Override
+    public ResponseEntity<List<MicroService>> readAllServiceEndpoints() {
+        List<MicroService> serviceEndpoints = service.getMicroService().getAllServiceEndpoints();
+        return ResponseEntity.ok(serviceEndpoints);
     }
 
     @Override

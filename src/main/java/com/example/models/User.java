@@ -15,18 +15,19 @@ public class User {
 
     private String email;
 
-    @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"))
-    @Enumerated(EnumType.STRING)
-    @Column(name = "role")
-    private Set<eRole> permissions;
-
     public User() {}
 
     public User(String email, Set<eRole> permissions) {
         this.email = email;
         this.permissions = permissions;
     }
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    @CollectionTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"))
+    @Enumerated(EnumType.STRING)
+    @Column(name = "role")
+    private Set<eRole> permissions;
+
 
     public Long getId() {
         return id;

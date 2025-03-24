@@ -9,16 +9,16 @@ public class ServicePermissionsDTO {
     private String serviceEndpointIdentifier;
     private Set<eRole> permissions;
 
+    public ServicePermissionsDTO(String serviceEndpointIdentifier, Set<eRole> permissions) {
+        this.serviceEndpointIdentifier = serviceEndpointIdentifier;
+        this.permissions = permissions;
+    }
+
     public Set<eRole> getPermissions() {
         return permissions;
     }
 
     public void setPermissions(Set<eRole> permissions) {
-        this.permissions = permissions;
-    }
-
-    public ServicePermissionsDTO(String serviceEndpointIdentifier, Set<eRole> permissions) {
-        this.serviceEndpointIdentifier = serviceEndpointIdentifier;
         this.permissions = permissions;
     }
 

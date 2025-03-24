@@ -7,6 +7,7 @@ import com.example.repos.MicroServiceRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -23,6 +24,10 @@ public class MicroServiceService {
     public ServiceCreateResponse createPermissionsForService(String serviceEndpointIdentifier, Set<eRole> permissions) {
         MicroService service = new MicroService(serviceEndpointIdentifier, permissions);
         return new ServiceCreateResponse().setService(repository.save(service));
+    }
+
+    public List<MicroService> getAllServiceEndpoints() {
+        return repository.findAll();
     }
 
     public Optional<Set<eRole>> getServicePermissions(String serviceEndpointIdentifier) {

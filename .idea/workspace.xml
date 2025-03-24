@@ -4,24 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f20b476e-ecb5-4989-8ead-44ddcdf968a9" name="Changes" comment="initial project - basic bootstrap app with DB connection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/common/eRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/AppControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/ServiceCreateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/ServicePermissionsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/UserCreateResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/UserPermissionsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/models/MicroService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repos/MicroServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repos/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/services/MicroServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/services/ServiceProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/services/UserService.java" afterDir="false" />
+    <list default="true" id="f20b476e-ecb5-4989-8ead-44ddcdf968a9" name="Changes" comment="finished business logic first iteration.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controllers/AppControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controllers/AppControllerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/dto/ServicePermissionsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/dto/ServicePermissionsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/models/MicroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/models/MicroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/MicroServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/services/MicroServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/services/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742752531187</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished business logic first iteration.">
+      <created>1742764545577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742764545577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,7 +118,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -129,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial project - basic bootstrap app with DB conncection" />
     <MESSAGE value="initial project - basic bootstrap app with DB connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial project - basic bootstrap app with DB connection" />
+    <MESSAGE value="finished business logic first iteration." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished business logic first iteration." />
   </component>
 </project>

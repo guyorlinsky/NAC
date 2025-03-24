@@ -15,12 +15,6 @@ public class MicroService {
 
     private String serviceEndpointIdentifier;
 
-    @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(name = "service_roles", joinColumns = @JoinColumn(name = "service_id"))
-    @Enumerated(EnumType.STRING)
-    @Column(name = "role")
-    private Set<eRole> permissions;
-
     public MicroService(String serviceEndpointIdentifier, Set<eRole> permissions) {
         this.permissions = permissions;
         this.serviceEndpointIdentifier = serviceEndpointIdentifier;
@@ -28,6 +22,13 @@ public class MicroService {
 
     public MicroService() {
     }
+
+    @ElementCollection(fetch = FetchType.EAGER)
+    @CollectionTable(name = "service_roles", joinColumns = @JoinColumn(name = "service_id"))
+    @Enumerated(EnumType.STRING)
+    @Column(name = "role")
+    private Set<eRole> permissions;
+
 
     public Long getId() {
         return id;
