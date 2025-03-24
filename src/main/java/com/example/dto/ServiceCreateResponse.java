@@ -5,7 +5,9 @@ import com.example.models.MicroService;
 public class ServiceCreateResponse {
     private MicroService service;
 
-    public ServiceCreateResponse() {}
+    public ServiceCreateResponse() {
+    }
+
     public ServiceCreateResponse(MicroService service) {
         this.service = service;
     }

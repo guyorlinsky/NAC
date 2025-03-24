@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-public class AppControllerImpl implements AppController{
+public class AppControllerImpl implements AppController {
     private final ServiceProvider service;
 
     public AppControllerImpl(UserService userService, MicroServiceService microService) {
@@ -26,7 +26,7 @@ public class AppControllerImpl implements AppController{
 
     @Override
     public ResponseEntity<UserCreateResponse> createPermissionsForUser(UserPermissionsDTO request) {
-         return ResponseEntity.ok(service.createPermissionsForUser(request.getEmail(), request.getPermissions()));
+        return ResponseEntity.ok(service.createPermissionsForUser(request.getEmail(), request.getPermissions()));
     }
 
     @Override
